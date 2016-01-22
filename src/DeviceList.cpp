@@ -1,5 +1,5 @@
 #include "DeviceList.h"
-#include "WProgram.h"
+#include "teensyduino.h"
 #undef min // Arduino libraries define max and min macros which mess with <vector>
 #undef max
 #include <vector>

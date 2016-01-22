@@ -1,6 +1,6 @@
 #include "Gyro.h"
 #include <cstdint>
-#include "WProgram.h"
+#include "teensyduino.h"
 #include "Device.h"
 #include "config.h"
 #include "SPI.h"

@@ -1,5 +1,5 @@
 #include "PacketController.h"
-#include "WProgram.h"
+#include "teensyduino.h"
 #include <cstdint>
 #undef min // Arduino libraries define max and min macros which mess with <vector>
 #undef max

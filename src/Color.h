@@ -13,7 +13,7 @@ private:
   Adafruit_TCS34725 *tcs;
   bool init;
 public:
-  Color(int integrationTime, int gain);
+  Color(int integrationTime, int gain, int pinSet);
   ~Color();
   std::vector<uint8_t> handleRequest(std::vector<uint8_t> &request);
 };

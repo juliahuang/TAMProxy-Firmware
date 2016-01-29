@@ -1,6 +1,7 @@
 [submodule "libraries/Adafruit_TCS34725"]
 	path = libraries/Adafruit_TCS34725
-	url = https://github.com/adafruit/Adafruit_TCS34725.git
+	url = https://github.com/juliahuang/Adafruit_TCS34725/
+	branch = master
 [submodule "libraries/Encoder"]
 	path = libraries/Encoder
 	url = https://github.com/PaulStoffregen/Encoder
@@ -13,6 +14,9 @@
 [submodule "libraries/Wire"]
 	path = libraries/Wire
 	url = https://github.com/PaulStoffregen/Wire
+[submodule "libraries/i2c_t3"]
+	path = libraries/i2c_t3
+	url = https://github.com/nox771/i2c_t3
 [submodule "cores"]
 	path = cores
 	url = https://github.com/mitchgu/cores

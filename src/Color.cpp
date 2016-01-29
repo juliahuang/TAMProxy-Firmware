@@ -5,7 +5,7 @@
 
 namespace tamproxy {
 
-Color::Color(int integrationTime, int gain) {
+Color::Color(int integrationTime, int gain, int pinSet) {
   init = false;
   tcs34725IntegrationTime_t it;
   if (integrationTime == 1) {
@@ -47,7 +47,7 @@ Color::Color(int integrationTime, int gain) {
     return;
   }
   
-  tcs = new Adafruit_TCS34725(it, g);
+  tcs = new Adafruit_TCS34725(it, g, pinSet);
   init = tcs->begin();
 }
 

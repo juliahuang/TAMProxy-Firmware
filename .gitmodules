@@ -1,6 +1,3 @@
-[submodule "libraries/Adafruit_TCS34725"]
-	path = libraries/Adafruit_TCS34725
-	url = https://github.com/adafruit/Adafruit_TCS34725.git
 [submodule "libraries/Encoder"]
 	path = libraries/Encoder
 	url = https://github.com/PaulStoffregen/Encoder
@@ -17,3 +14,9 @@
 	path = cores
 	url = https://github.com/mitchgu/cores
 	branch = more-usb-buffers
+[submodule "i2c_t3"]
+	path = i2c_t3
+	url = https://github.com/nox771/i2c_t3
+[submodule "Adafruit_TCS34725"]
+	path = Adafruit_TCS34725
+	url = https://github.com/juliahuang/Adafruit_TCS34725/
